@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#chess-board {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #cccccc;
+}

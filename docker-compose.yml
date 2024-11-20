@@ -1,0 +1,11 @@
+ version: "3.9"
+services:
+  threejs-chess:
+    build: .
+    ports:
+      - "5432:5432"
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    command: ["npm", "start"]
+
